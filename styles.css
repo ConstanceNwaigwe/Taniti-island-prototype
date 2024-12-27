@@ -1,0 +1,67 @@
+body{
+    background-color: #FFE9DB;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: #676767;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 15px 0; */
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #6699CC;
+    color: black;
+}
+
+.welcome{
+    background-image: url('https://www.muchbetteradventures.com/magazine/content/images/2022/09/GettyImages-1162800176-1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97.5vw;
+    height: 100vh;
+    color: white;
+}
+
+#about h3, .header{
+    text-align: center;
+}
+
+#about p{
+    text-align: center;
+    max-width: 500px;
+    margin: 10px auto 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #676767;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
